@@ -1,6 +1,8 @@
 class Main {
   public static void main(String[] args) {
-    System.out.println("hello world");
+    Feeder f= new Feeder(100);
+    f.simulateOneDay(10);
+    System.out.println(f.simulateManyDays(10,5));
   }
 }
 
